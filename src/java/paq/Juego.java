@@ -42,16 +42,16 @@ public class Juego {
   }
   
   /**
-   * Devuelve boton.
-   * @return 
+   * Devuelve estado del boton Tapar.
+   * @return - Estado del boton.
    */
   public int getBoton() {
     return hayBoton;
   }
   
   /**
-   * Establece boton.
-   * @param n 
+   * Establece boton Tapar.
+   * @param n - Estado de boton.
    */
   public void setBoton(int n) {
     hayBoton=n;
@@ -59,7 +59,7 @@ public class Juego {
   
   /**
    * Devuelve anterior.
-   * @return 
+   * @return - Último boton pulsado.
    */
   public int getAnterior() {
     return anterior;
@@ -67,7 +67,7 @@ public class Juego {
   
   /**
    * Establece anterior.
-   * @param num 
+   * @param num - Último pulsado.
    */
   public void setAnterior(int num) {
     anterior=num;
@@ -132,7 +132,7 @@ public class Juego {
   /**
    * Comprueba si un elemento del array visibles está oculto.
    * @param i - Posición del elemento.
-   * @return 
+   * @return - Si está oculto o no.
    */
   public boolean estaOculta(int i) {
     if (visibles[i].equals("imagenes\\"+"imagen0.jpg")) {
@@ -145,7 +145,7 @@ public class Juego {
   /**
    * Devuelve un elemento de los visibles.
    * @param i - Posición del elemento.
-   * @return 
+   * @return - Nombre del elemento.
    */
   public String mostrar(int i) {
     return visibles[i];
@@ -154,7 +154,7 @@ public class Juego {
   /**
    * Devuelve un nombre.
    * @param i - Posición del elemento.
-   * @return 
+   * @return - Nombre del elemento.
    */
   public String getNombre(int i) {
     return nombres[i];
@@ -176,7 +176,7 @@ public class Juego {
   
   /**
    * Obtiene el numero de fallos.
-   * @return 
+   * @return - Número de fallos.
    */
   public int getFallos() {
     return fallos;
