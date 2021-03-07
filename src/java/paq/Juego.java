@@ -10,7 +10,8 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- *
+ * Clase que gestiona la lógica del juego
+ * 
  * @author Juan Luis Almahano Leiva
  */
 public class Juego {
